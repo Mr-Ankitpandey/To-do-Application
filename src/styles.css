@@ -1,0 +1,52 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(10, 10, 10);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.app-container{
+    min-width: 50%;
+    border: 2px solid rgb(228, 225, 225);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 0 10px white;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+#msg{
+    margin: 1rem 0 1rem 0;
+    font-size: 1.2rem;
+}
+#temp{
+    color: #70d907;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .app-container{
+    width: 100%;
+    padding: 1rem;
+  }
+  .to-do{
+    width: 100%;
+    padding: 0;
+  }
+  #todo{
+    font-size: 1rem;
+  }
+  .form-select{
+    width: 100%;
+}
+}
